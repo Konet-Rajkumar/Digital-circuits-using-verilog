@@ -23,16 +23,5 @@ input d;
 input clk,rst;
 output q,qb;
 Tff a1(q,qb,d^q,clk,rst);
-endmodule
-
-
-/*
-module Tff_to_Dff(q,qb,s,r,c,rs
-    );
-input rs,c,s,r;
-output q,qb;
-wire d;
-assign d=;
-Dff f1(q,qb,d,c,rs);
 endmodule
-*/
+
