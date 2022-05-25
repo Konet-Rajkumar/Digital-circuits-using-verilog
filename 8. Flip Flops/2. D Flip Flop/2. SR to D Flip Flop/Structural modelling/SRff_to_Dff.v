@@ -25,15 +25,3 @@ output wire q,qb;
 SRff f1(q,qb,d,~d,clk,rst);
 endmodule
 
-
-
-/*
-module SRff_to_Dff(q,qb,s,r,c,rs
-    );
-input rs,c,s,r;
-output q,qb;
-wire d;
-assign d=(~r&q)|s;
-Dff f1(q,qb,d,c,rs);
-endmodule
-*/
